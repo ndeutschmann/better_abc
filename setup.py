@@ -4,7 +4,7 @@ setup(
     package_dir={'': 'src'},
     name='better_abc',
     packages=find_packages(where="src"),
-    version='0.1.0',
+    version='0.2.0',
     description='Python ABC with a simple @abstract_property decorated checked after instantiation',
     author='Nicolas Deutschmann',
     license='MIT',

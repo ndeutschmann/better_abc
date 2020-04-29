@@ -7,6 +7,7 @@ Define a class attribute as attr = better_abc.abstract_attribute()` or decorate 
 to register it as a special abstract property that is checked after `__init__` is called,
 i.e. child classes can define `attr = <value>` *in the __init__* function as a natural attribute.
 """
+from abc import abstractmethod,abstractclassmethod,abstractstaticmethod,abstractproperty
 from .abc_meta import ABCMeta,abstract_attribute
 
 
